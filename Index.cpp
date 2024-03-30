@@ -21,6 +21,11 @@ int main() {
     cout << "8. Una tabla de multiplicar" << endl;
     cout << "9. Todas las tablas de multiplicar" << endl;
     cout << "10. Crear de forma grafica la multiplicacion manual" << endl;
+    cout << "11. Conversion de numeros decimales a binario" << endl;
+    cout << "12. Conversion de numeros decimales a hexadecimales" << endl;
+    cout << "13. Crear Figuras Geometricas Basicas" << endl;
+    cout << "14. Mover un punto en toda la pantalla" << endl;
+    cout << "15. Simulacion de un Cajero (Automata)" << endl;
     cout << "16. Calcular la Hipotenusa" << endl;
     cout << "17. Calcular el IVA de un producto" << endl;
     cout << "18. Calcular el ISR" << endl;
@@ -72,6 +77,26 @@ int main() {
         case 10:
             system("cls");
             system("Crear_de_forma_grafica_la_multiplicacion_manual.exe");
+            break;
+          case 11:
+            system("cls");
+            system("decimal_a_binario.exe");
+            break;
+        case 12:
+            system("cls");
+            system("deciaml_a_hexa.exe");
+            break;
+        case 13:
+            system("cls");
+            system("figuras_geometricas.exe");
+            break;
+        case 14:
+            system("cls");
+            system("punto_en_movimiento.exe");
+            break;
+        case 15:
+            system("cls");
+            system("cajero.exe");
             break;
         case 16:
             system("cls");
