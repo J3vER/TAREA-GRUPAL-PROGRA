@@ -16,7 +16,13 @@ int main() {
     cout << "3. Conversion de unidades (kilometros a millas, metros a pulgadas, libras a kilogramos)" << endl;
     cout << "4. Determinar si una palabra o un numero es palindromo" << endl;
     cout << "5. Conversion de numeros arabigos a romanos (minimo 1,000)" << endl;
-    //Mucha por el amor de Jesus no le vayan a borrar NADA al indice, solo agreguen sus programas aquí
+    cout << "16. Calcular la Hipotenusa" << endl;
+    cout << "17. Calcular el IVA de un producto" << endl;
+    cout << "18. Calcular el ISR" << endl;
+    cout << "19. Calculadora de horas extras" << endl;
+    cout << "20. Calculadora de descuentos" << endl;
+
+    //Mucha por el amor de Jesus no le vayan a borrar NADA al indice, solo agreguen sus programas aqui-
 
     cout << "Ingrese el numero correspondiente al programa que desea ejecutar: ";
     cin >> opcion;
@@ -41,6 +47,26 @@ int main() {
         case 5:
             system("cls");
             system("arabigos_romanos.exe");
+            break;
+        case 16:
+            system("cls");
+            system("Calcular_la_Hipotenusa.exe");
+            break;
+        case 17:
+            system("cls");
+            system("Calcular_el_IVA_de_un_producto.exe");
+            break;
+        case 18:
+            system("cls");
+            system("Calcular_el_ISR.exe");
+            break;
+        case 19:
+            system("cls");
+            system("Calculadora_de_horas_extras.exe");
+            break;
+        case 20:
+            system("cls");
+            system("Calculadora_de_descuento.exe");
             break;
         default:
             cout << "Opcion no valida." << endl;
