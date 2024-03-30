@@ -16,6 +16,11 @@ int main() {
     cout << "3. Conversion de unidades (kilometros a millas, metros a pulgadas, libras a kilogramos)" << endl;
     cout << "4. Determinar si una palabra o un numero es palindromo" << endl;
     cout << "5. Conversion de numeros arabigos a romanos (minimo 1,000)" << endl;
+    cout << "6. Conversion de numeros enteros a letras" << endl;
+    cout << "7. Conversion de numeros enteros con decimal a letras" << endl;
+    cout << "8. Una tabla de multiplicar" << endl;
+    cout << "9. Todas las tablas de multiplicar" << endl;
+    cout << "10. Crear de forma grafica la multiplicacion manual" << endl;
     cout << "16. Calcular la Hipotenusa" << endl;
     cout << "17. Calcular el IVA de un producto" << endl;
     cout << "18. Calcular el ISR" << endl;
@@ -47,6 +52,26 @@ int main() {
         case 5:
             system("cls");
             system("arabigos_romanos.exe");
+            break;
+        case 6:
+            system("cls");
+            system("Conversion_de_numeros_enteros_a_letras.exe");
+            break;
+        case 7:
+            system("cls");
+            system("Conversion_de_numeros_enteros_con_decimal_a_letras.exe");
+            break;
+        case 8:
+            system("cls");
+            system("Una_tabla_de_multiplicar.exe");
+            break;
+        case 9:
+            system("cls");
+            system("Todas_las_tablas_de_multiplicar.exe");
+            break;
+        case 10:
+            system("cls");
+            system("Crear_de_forma_grafica_la_multiplicacion_manual.exe");
             break;
         case 16:
             system("cls");
